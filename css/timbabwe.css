@@ -15,6 +15,11 @@ body {
     font-family: 'PT Sans', sans-serif;
 }
 
+header.site-header {
+  margin-top: 5px;
+  border-top: 0;
+}
+
 .page-content {
   padding-top: 10px;
 }
