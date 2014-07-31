@@ -1,0 +1,80 @@
+/*
+ _______ _______ _______ ______ _______ ______ ________ _______
+|_     _|_     _|   |   |   __ \   _   |   __ \  |  |  |    ___|
+  |   |  _|   |_|       |   __ <       |   __ <  |  |  |    ___|
+  |___| |_______|__|_|__|______/___|___|______/________|_______|
+
+  respect this hustle
+  © 2014 tim krajcar <allegro@conmolto.org>
+*/
+
+@import url(http://fonts.googleapis.com/css?family=PT+Sans|Francois+One);
+
+body {
+    color: #444;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.page-content {
+  padding-top: 10px;
+}
+
+h1, h2, h3 {
+    font-family: 'Francois One', sans-serif;
+}
+
+.site-title, .site-title:hover, .site-title:visited {
+  font-family: 'Francois One', sans-serif;
+  font-size: 44px;
+}
+
+.site-title, .site-title:visited {
+    color: #009BC2 !important;
+}
+
+.site-title:hover {
+  color: #00ccff !important;
+  text-decoration: none;
+}
+
+h2, h3 {
+  text-transform: uppercase;
+}
+
+a {
+    color: #009BC2;
+}
+
+a:visited {
+    color: #833ca4;
+}
+
+a:hover {
+    color: #00ccff;
+}
+
+.post-header {
+  margin-bottom: 10px;
+}
+
+.post-header h1 {
+  font-size: 34px;
+  letter-spacing: 0;
+}
+
+.posts .post-link {
+  letter-spacing: 0;
+  font-family: 'Francois One', sans-serif;
+  text-transform: uppercase;
+}
+.posts .summary {
+  font-size: 90%;
+  margin-top: 3px;
+}
+
+
+.about {
+  margin-top: 10px;
+  text-align: right;
+  font-size: 85%;
+}
