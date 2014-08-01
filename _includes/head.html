@@ -9,12 +9,13 @@
         <meta name="description" content="{{site.description}}" />
     {% endif %}
     <meta name="author" content="Tim Krajcar">
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
+    <link rel="sitemap" href="/sitemap.xml" />
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="shortcut icon" href="/images/favicon.ico">
     <link rel="alternate" type="application/rss+xml" title="TIMBABWE: the life and work of tim krajcar" href="http://www.timbabwe.com/atom.xml">
-    <link href='http://fonts.googleapis.com/css?family=Droid+Sans|Francois+One' rel='stylesheet' type='text/css'>
 
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans|Francois+One' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{{ "/css/jekyll.css" | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ "/css/timbabwe.css" | prepend: site.baseurl }}">
 </head>

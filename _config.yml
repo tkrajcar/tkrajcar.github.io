@@ -11,3 +11,6 @@ github_username:  tkrajcar
 markdown: kramdown
 permalink: "/:year/:month/:title/"
 highlighter: pygments
+
+gems:
+  - jekyll-sitemap
