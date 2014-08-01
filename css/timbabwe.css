@@ -84,6 +84,10 @@ a:hover {
   font-size: 85%;
 }
 
+.post pre, .post code {
+  background-color: #fffff5;
+}
+
 @media only screen and (max-width:520px) {
   .posts li {
     margin-bottom: 15px;

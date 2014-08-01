@@ -12,7 +12,7 @@ Another distinction of my solution is that, rather than treating the tab title a
 
 Here's the relevant section of my .zshrc, which you can view in [my dotfiles repo on GitHub](https://github.com/tkrajcar/dotfiles):
 
-{% highlight bash %}
+{% highlight bash linenos %}
 # set tab title to cwd
 precmd () {
   tab_label=${PWD/${HOME}/\~} # use 'relative' path

@@ -14,11 +14,11 @@ If you don't already have a drushrc setup, you'll need to make one in your <code
 
 Here's the one I created and named <code>aliases.drushrc.php</code> (just in case I want to add more aliases later):
 
-``` php
+{% highlight php linenos %}
 <?php
 $command_specific['dl'] = array('destination' => 'sites/all/modules/contrib');
 ?>
-```
+{% endhighlight %}
 
 For my next trick, I'm going to try <a href="http://technicalpickles.com/posts/never-leave-your-dotfiles-behind-again-with-homesick/">Homesick</a>, a Ruby gem for helping your dot files follow you around, so I can get this file created everywhere I need it.
 

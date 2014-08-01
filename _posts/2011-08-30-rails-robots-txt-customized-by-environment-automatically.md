@@ -15,7 +15,7 @@ Here's how I solved this:
 * Delete the default <code>public/robots.txt</code> (otherwise it will always be served by your webserver and Rails won't even know of the request).
 * In one of your controllers, add a method to handle incoming requests for <code>robots.txt</code> - here's mine:
 
-{% highlight ruby %}
+{% highlight ruby linenos %}
 def robots
   robots = File.read(Rails.root + "config/robots.#{Rails.env}.txt")
   render :text => robots, :layout => false, :content_type => "text/plain"

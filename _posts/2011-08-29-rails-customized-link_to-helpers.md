@@ -20,7 +20,7 @@ Happily, Ruby hashes can easily be serialized as URL variables, and thanks to th
 
 Here's what I ended up with in my <code>pages_helper.rb</code>:
 
-{% highlight ruby %}
+{% highlight ruby linenos %}
 def link_to_mysite(text, page, urlvars={}, options={})
   link_to text, "http://constantsite.com/#{page}.cfm?#{urlvars.to_query}", {:target => "_blank"}.merge(options)
 end
@@ -28,7 +28,7 @@ end
 
 And some sample usage:
 
-{% highlight ruby %}
+{% highlight ruby linenos %}
 link_to_mysite "No URL vars", "novar"
 # renders: <a href="http://constantsite.com/novar.cfm?" target="_blank">No URL vars</a>
 
