@@ -2,10 +2,10 @@
 layout: post
 title:  "Effective Upward One-on-One Meetings for Managers"
 date:   2014-08-21 13:37:00
-excerpt: One thing we all do (or should be, if you're not!) as managers is have regular one-on-one meetings with our manager. I've started using a simple framework in how I prepare for and approach these meetings to help ensure we both get maximum value for our time.
+excerpt: One thing we all do (or should do!) as managers is have regular one-on-one meetings with our manager. I've started using a simple framework in how I prepare for and approach these meetings to help ensure we both get maximum value for our time.
 
 ---
-One thing we all do (or should be, if you're not!) as managers is have regular one-on-one meetings with *our* manager (VP, CxO, what have you). Many technical managers report in to people who are extremely busy, so this can be the only time we can know that we'll have their attention -- we should be incredibly thoughtful about how we use this time.  I've started using a simple framework in how I prepare for and approach these meetings to help ensure we both get maximum value for our time.
+One thing we all do (or should do!) as managers is have regular one-on-one meetings with *our* manager (VP, CxO, what have you). Many technical managers report in to people who are extremely busy, so this can be the only time we can know that we'll have their attention -- we should be incredibly thoughtful about how we use this time.  I've started using a simple framework in how I prepare for and approach these meetings to help ensure we both get maximum value for our time.
 
 This meeting is your best chance to share what's going well and where you need support. Walking in with no preparation just says you don't value the time, and you might as well just not meet. I now start a new shared document right after every 1:1 and start collecting my discussion items for the next meeting right away. As things come up during the week, I just open the doc and drop them in. We use [Quip](https://quip.com) at New Relic for this, but you could use Google Docs, a shared folder on Dropbox, or even a private folder on a network drive.
 
