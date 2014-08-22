@@ -13,13 +13,13 @@ If your 1:1 meeting is face-to-face, or at least video chat, your agenda items c
 
 Every item that goes on the agenda gets classified into one of three headings:
 
-## Inform
+### Inform
 These are items that I just want my supervisor to be aware is happening. Quick-hit status updates on how projects are going, how a particular employee's performance is doing, or anything that is something my supervisor should be aware of.
 
-## Input
+### Input
 This is for topics where I want to make clear that I could use some direction, advice, context, or any other supporting information/perspective. I might have an idea of how to proceed on something and need formal or informal approval, or I might want to validate an idea to see if it's worth pursuing.
 
-## Decision
+### Decision
 A 'Decision' item is one that needs a specific, decisive course of action defined before the meeting is over. In my particular case, these are pretty rare, since when I have a direct need I usually get feedback on it before our regular meeting, but they do come up.
 
 During the meeting, I'll walk through each of the items, and also add notes to the bottom of the agenda doc. That way, everything's captured in one place and both of us can go access it at any time. Of course, I also make sure and leave time for any items that need to be passed down to me, as well, and capture those in the notes, too.

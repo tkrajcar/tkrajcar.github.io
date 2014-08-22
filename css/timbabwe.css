@@ -46,6 +46,10 @@ h2, h3 {
   text-transform: uppercase;
 }
 
+article.post-content h2, article.post-content h3 {
+  margin: 20px 0 -10px;
+}
+
 a {
     color: #009BC2;
 }
