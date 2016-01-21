@@ -8,11 +8,10 @@
   © tim krajcar <allegro@conmolto.org>
 */
 
-@import url(http://fonts.googleapis.com/css?family=PT+Sans|Francois+One);
+@import url(http://fonts.googleapis.com/css?family=Francois+One);
 
 body {
     color: #444;
-    font-family: 'PT Sans', sans-serif;
 }
 
 header.site-header {
@@ -55,7 +54,7 @@ a {
 }
 
 a:visited {
-    color: #833ca4;
+    color: #009BC2;
 }
 
 a:hover {
@@ -90,6 +89,10 @@ a:hover {
 
 .post pre, .post code {
   background-color: #fffff5;
+}
+
+.post-content blockquote {
+  margin: 15px 0;
 }
 
 @media only screen and (max-width:520px) {
