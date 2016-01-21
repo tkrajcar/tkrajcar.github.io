@@ -10,11 +10,18 @@
     {% endif %}
     <meta name="author" content="Tim Krajcar">
 
+    <meta property="og:type" content="{% if page.excerpt %}article{% else %}website{% endif%}" />
+
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@TimKrajcar" />
     <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+    <meta name="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+    <meta name="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
     <meta name="twitter:description" content="{% if page.excerpt %}{{page.excerpt}}{% else %}{{site.description}}{% endif %}" />
     <meta name="twitter:image" content="http://timbabwe.com/images/twitter_profile.png" />
+    <meta property="og:image" content="http://timbabwe.com/images/twitter_profile.png" />
+
 
     <link rel="sitemap" href="/sitemap.xml" />
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
