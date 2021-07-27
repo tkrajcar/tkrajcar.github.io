@@ -10,7 +10,7 @@ github_username:  tkrajcar
 # Build settings
 markdown: kramdown
 permalink: "/:year/:month/:title/"
-highlighter: pygments
+highlighter: rouge
 
 gems:
   - jekyll-sitemap
