@@ -1,7 +1,7 @@
 # Site settings
 title: TIMBABWE
 email: allegro@conmolto.org
-description: "the life and work of tim krajcar: technologist, husband, father, and musician in portland, oregon"
+description: "the life and work of tim krajcar: engineer, husband, father, and musician in portland, oregon"
 baseurl: ""
 url: "http://www.timbabwe.com"
 twitter_username: TimKrajcar
@@ -12,5 +12,5 @@ markdown: kramdown
 permalink: "/:year/:month/:title/"
 highlighter: rouge
 
-gems:
+plugins:
   - jekyll-sitemap
