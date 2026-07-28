@@ -12,5 +12,17 @@ markdown: kramdown
 permalink: "/:year/:month/:title/"
 highlighter: rouge
 
+# The github-pages gem used to inject these implicitly. Plain Jekyll defaults
+# differ -- notably kramdown's input, which defaults to :kramdown rather than
+# GFM -- so they are set explicitly here to preserve existing post rendering.
+kramdown:
+  input: GFM
+  hard_wrap: false
+  gfm_quirks: paragraph_end
+  syntax_highlighter: rouge
+
+# github-pages built with future: true; Jekyll's own default is false.
+future: true
+
 plugins:
   - jekyll-sitemap
